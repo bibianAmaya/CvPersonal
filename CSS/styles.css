@@ -1,0 +1,113 @@
+/* Regals CSS
+selector{
+    propiedad:"valor";
+}
+*/
+@font-face{
+    font-family: varsity1;
+    src : url(../fonts/varsity_regular.ttf);
+    font-family: Richu1;
+    src : url(../fonts/Richu\ Mast\ Regular.ttf);
+    font-family: honey;
+    src : url(../fonts/Nice\ Honey.ttf);
+    font-family: Teacher;
+    src : url(../fonts/Smart\ Teacher.otf);
+    font-family: Beach;
+    src : url(../fonts/Southern\ Beach.otf);
+}
+
+header{
+    width: 1440px;
+}
+section.titulo1{
+    background-image: url("../img/verde.jpg");
+    background-size: 80%;
+    opacity: 0.6;
+    width: 1440px;
+    height: 60px;
+    text-align: center ;
+}
+p{
+    width: 1440px;
+    height: 60px;
+}
+section.indice{
+    background-image: url("../img/programar.jpg");
+    text-align: center;
+}
+h1{
+    color: azure;
+    font-feature-settings: 'cpsp' on;
+    font-family: Beach;
+    font-size: 45px;
+    padding: 9.5px;
+    font-weight: 200;
+}
+h2.titulo{
+    background:cadetblue;
+    width: 1440px;
+    height: 30px;
+    color: #005677;
+    font-feature-settings: 'cpsp' on;
+    font-family: Richu1;
+    font-weight: 100;
+    font-size: 20px;
+}
+span.subtitulo1{
+    color: #000;
+    font-family: honey;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 700;
+}
+span.subtitulo2{
+    color: #000;
+    font-family: Richu1;
+    font-size: 15px;
+}
+span.años{
+    color: #000;
+    font-family: Times New Roman;
+    font-size: 15px;
+    font-weight: 700;   
+}
+span{
+    color: #000;
+    font-family: Times New Roman;
+    font-size: 15px;
+}
+span.pie{
+    color: #FFF;
+    font-family: Beach;
+    font-size: 20px;
+    font-weight: 500;
+}
+.lista{
+    list-style: none;
+}
+.abajo {
+    margin-left: 78px;
+}
+footer{
+    background: #85b6c9;
+    text-align: center;
+    padding: 4px;
+    width: 1440px;   
+}
+i{
+    color:white;
+    font-size: 30px;
+}
+.img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+  /* Style the topnav links */
+.topnav a {
+    float: left;
+    color:black;
+    font-weight: 900;
+    text-align: center;
+    padding: 14px 16px;
+}
